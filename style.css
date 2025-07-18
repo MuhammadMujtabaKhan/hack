@@ -1,0 +1,45 @@
+*{margin: 0;
+padding:0 ;
+box-sizing:border-box ;}
+body {
+      background-color: white;
+      color: #000;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      border-bottom: 1px solid #ccc;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 24px;
+      color: #000;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+    .btn {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+
+
+
+    
+    
+    
+    
+    
+
+
+ 
