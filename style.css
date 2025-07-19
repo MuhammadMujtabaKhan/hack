@@ -4,6 +4,8 @@ box-sizing:border-box ;}
 body {
       background-color: white;
       color: #000;
+      width: 1300px;
+      
     }
     header {
       display: flex;
@@ -12,7 +14,7 @@ body {
       padding: 20px 50px;
       border-bottom: 1px solid #ccc;
     }
-    .logo {
+     .logo {
       font-weight: 700;
       font-size: 24px;
       color: #000;
@@ -23,6 +25,7 @@ body {
       color: #000;
       font-weight: 500;
     }
+    nav a:hover{color: greenyellow;}
     .btn {
       background-color: black;
       color: white;
@@ -30,6 +33,110 @@ body {
       border: none;
       border-radius: 5px;
       cursor: pointer;
+    }
+    /* hero ssection */
+    .hero-section img{
+       width: 1435px;
+height: 450px;
+justify-content: space-between;
+opacity: 1;
+padding-right: 100px;
+padding-left: 100px;
+border: 1px solid yellow;
+
+    }
+    .logo-list{display: flex;
+align-items: flex-end;
+justify-content: space-between;
+width: 1000px; 
+height: 48px;
+margin-top: 20px;
+    }
+
+
+    .logo-list img{
+       
+opacity: 1;
+padding-left: 105px;
+padding-right:105px ;
+margin-top: 20px;
+
+
+    }
+    .services{
+      width: 1440;
+height: 51;
+opacity: 1;
+top: 971px;
+gap: 40px;
+padding-right: 100px;
+padding-left: 100px;
+margin-top: 60px;
+
+    }
+    .services-block{
+      width: 1440;
+height: 310;
+opacity: 1;
+top: 1102px;
+gap: 40px;
+margin-top: 60px;
+
+    }
+    .working-process{
+      width: 1440;
+height: 51;
+opacity: 1;
+top: 1492px;
+gap: 40px;
+padding-right: 100px;
+padding-left: 100px;
+margin-top: 60px;
+
+    }
+    .process-block{
+      width: 1200px;
+height: 1211px;
+opacity: 1;
+top: 1623px;
+left: 3px;
+gap: 30px;
+padding-right: 100px;
+padding-left: 100px;
+margin-top: 60px;
+
+    }
+    .contact{
+      width: 1440;
+height: 51;
+opacity: 1;
+top: 2964px;
+gap: 40px;
+padding-right: 100px;
+padding-left: 100px;
+margin-top: 60px;
+
+    }
+    .contact-block{
+      margin-top: 60px;
+      width: 1440px;
+height: 773px;
+opacity: 1;
+top: 3095px;
+padding-right: 100px;
+padding-left: 100px;
+
+    }
+    .footer{
+      width: 1441px;
+height: 514px;
+opacity: 1;
+top: 4008px;
+gap: 10px;
+padding-right: 100px;
+padding-left: 100px;
+margin-top: 60px;
+
     }
     
 
